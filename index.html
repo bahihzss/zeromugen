@@ -17,16 +17,6 @@
   <script type="text/javascript" defer="defer" src="cmn/js/mugen.js"></script>
   <script type="text/javascript" defer="defer" src="cmn/js/alphafilter.js"></script>
   <script type="text/javascript" defer="defer" src="top.js"></script>
-
-  <script type="text/javascript">
-	// ライブ情報へのリンクを付ける
-	$(function(){
-		$("#LiveSchedule a").each(function(i) {
-  		var j = i + 1;
-			$(this).attr("href","live?i=" + j);
-    });
-	});
-  </script>
 </head>
 <body>
 <div id="Page">
@@ -412,5 +402,14 @@
     </address>
   <!--/div#Footer--></div>
 <!--/div#Page--></div>
+<script type="text/javascript">
+	// ライブ情報へのリンクを付ける
+	$(function(){
+		$("#LiveSchedule a").each(function(i) {
+  		var j = i + 1;
+			$(this).attr("href","live?i=" + j);
+    });
+	});
+  </script>
 </body>
 </html>
