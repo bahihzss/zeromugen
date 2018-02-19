@@ -6,7 +6,7 @@ var aMove = true,
 $(function(){
 	if(act){
 	$("<img>")
-	.attr("src","../img/mugen.png")
+	.attr("src","http://ma-foo.jp/zeromugen/img/mugen.png")
 	.attr("id","mugen")
 	.attr("width", "25")
 	.attr("height", "25")
