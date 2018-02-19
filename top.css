@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+/* Header
+------------------------------------------------------------*/
+#Header {
+	margin-top: 5px;
+}
+
+/* SideContents
+------------------------------------------------------------*/
+#SideContents {
+	float: left;
+	width: 320px;
+	border-right-style: dotted;
+	border-right-width: 1px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+#LatestLive {
+	margin-left: 30px;
+	width: 270px;
+}
+#LiveSchedule {
+	margin-top: 60px;
+	margin-left: 30px;
+	width: 270px;
+}
+#LiveSchedule p {
+	text-align: right;
+}
+#LiveSchedule a {
+	display:block;
+	width: 270px;
+	color: #000;
+	text-decoration: none;
+}
+#LiveSchedule a:hover{
+	background-color: #CDCDCD;
+	background-image: url(img/v.png);
+	background-repeat: no-repeat;
+	background-position: 250px;
+}
+#LiveSchedule ul {
+	margin-top: 20px;
+}
+#LiveSchedule ul li {
+	list-style-image: url(img/point_b.gif);
+	list-style-position:inside;
+	font-size: 11px;
+	padding: 5px;
+}
+#LiveSchedule ul li h3{
+	font-size: 14px;
+	margin-top: 3px;
+}
+#Twitter {
+	margin-top: 60px;
+	margin-left: 30px;
+	width: 270px;
+}
+#Twitter p {
+	margin-top: 20px;
+}
+#MailMagazine {
+	margin-top: 60px;
+	margin-left: 30px;
+	width: 270px;
+}
+
+#MailMagazine > img{
+	margin-bottom: 20px;
+}
+#MailMagazine p{
+	text-align: center;	
+	margin-bottom: 10px;
+}
+#MailMagazine form{
+	background-color:#FDFDFD;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 1px #999;
+	-moz-box-shadow: 1px 1px 1px 1px #999;
+	-webkit-box-shadow: 1px 1px 1px 1px #999;
+	text-align: center;	
+	margin-top: 10px;
+}
+#SNSLinks {
+	margin-top: 60px;
+	margin-left: 30px;
+	width: 270px;
+	text-align: center;
+}
+
+
+/* Main Contents
+------------------------------------------------------------*/
+#MainContents {
+	float: right;
+	width: 599px;
+	padding-left: 80px;
+}
+#PickUp {
+	margin-top: 60px;
+}
+#PickUp iframe {
+	margin-top: 20px;
+}
+#LatestDisk {
+	margin-top: 60px;
+}
+#LatestDisk .LeftContents {
+	margin-top: 20px;
+	font-size: 14px;
+}
+#LatestDisk .RightContents {
+	width: 300px;
+	margin-top: 90px;
+}
+#LatestDisk .iTunes{
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#Info dt {
+	float: left;
+	width: 120px;
+	color: #006CD8;
+}
+#Info dd {
+	float: right;
+	width: 420px;
+}
+#Info dd p{
+	display: none;
+}
+
+#Info p a{
+	color: #3CF;
+}
+#Info h4 {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#Info h4:hover {
+	text-decoration:underline;
+}
+#InfoInner {
+	position: relative;
+	width: 560px;
+	padding: 10px;
+	margin-top: 20px;
+	height: 200px;
+	overflow:auto;
+	background-color:#FDFDFD;
+	border: #CCC 1px solid;
+}
+
+/* Footer
+------------------------------------------------------------*/
+#Footer {
+	clear: both;
+}

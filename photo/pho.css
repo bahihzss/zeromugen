@@ -1,0 +1,87 @@
+/* CSS Document */
+@charset "utf-8";
+
+/* Left Contents
+------------------------------------------------------------*/
+#gmenu li{
+	position:relative;
+}
+
+.LeftContents .Go2Top{
+	font-size: 16px;
+	padding-left: 10px;
+	margin: 0;
+}
+.LeftContents .GalleryEnd {
+	text-align: left;
+}
+.LeftContents .Title {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+.LeftContents li {
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+	.LeftContents li a {
+		text-decoration: none;
+		color: #000;
+	}
+	.LeftContents li a:hover {
+		text-decoration: underline;
+	}
+
+/* Photo Gallery
+------------------------------------------------------------*/
+.RightContents{
+	display:none;
+}
+
+.PhotoGallery {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+	.PhotoGallery ul  {
+		width: 820px;
+		margin-top: 10px;
+		margin-bottom: -150px;
+		border-top: 1px dotted #000;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	.PhotoGallery ul li {
+		float: left;
+		width: 205px;
+		height: 215px;
+	}
+		.PhotoGallery ul li a {
+			vertical-align: middle;
+			display: table-cell;
+			height: 210px;
+			width: 200px;
+			text-align: center;
+		    border-radius: 5px;        /* CSS3草案 */  
+		    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+		    -moz-border-radius: 5px;   /* Firefox用 */ 
+		}
+			.PhotoGallery ul li a img {
+				box-shadow: 1px 1px 3px 1px #ccc;
+				-moz-box-shadow: 1px 1px 3px 1px #ccc;
+				-webkit-box-shadow: 1px 1px 3px 1px #ccc;
+				border: 3px solid #FFF;
+			}
+	.PhotoGallery ul .GalleryEnd{
+		margin-top: 10px;
+		margin-bottom: -30px;
+		clear:both;
+		float:right;
+	}
+	.PhotoGallery ul .GalleryEnd a {
+		color:#000;
+		text-decoration:none;
+		height: 10px;
+	}
+	.PhotoGallery ul .GalleryEnd a:hover {
+		text-decoration: underline;
+	}

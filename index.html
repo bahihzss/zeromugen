@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta name="keywords" content="ZERO MUGEN,ZEROMUGEN,ゼロムゲン,大阪,バンド,ロックバンド" />
+  <meta name="description" content="Guitar & VocalのSeitaを中心に活躍するロックバンドZERO MUGENのOfficial Web Site" />
+
+  <title>ZERO MUGEN  -Official Web Site-</title>
+
+  <link href="cmn/css/base.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="cmn/css/cmn.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="top.css" rel="stylesheet" type="text/css" media="all" />
+
+  <script type="text/javascript" defer="defer" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" defer="defer" src="cmn/js/mugen.js"></script>
+  <script type="text/javascript" defer="defer" src="cmn/js/alphafilter.js"></script>
+  <script type="text/javascript" defer="defer" src="top.js"></script>
+
+  <!--Google Analytics-->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34834279-1']);
+    _gaq.push(['_setDomainName', 'zeromugen.jp']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!--Google Analytics-->
+  <script type="text/javascript">
+	// iPhoneまたは、Androidの場合は振り分けを判断
+	if (
+	document.referrer.indexOf('zeromugen.jp') == -1 &&
+	(navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) 
+	|| navigator.userAgent.indexOf('iPod') > 0 
+	|| navigator.userAgent.indexOf('Android') > 0
+	) location.href = 'http://zeromugen.jp/sp/';
+	
+	// ライブ情報へのリンクを付ける
+	$(function(){
+		$("#LiveSchedule a").each(function(i) {
+  			var j = i + 1;
+			$(this).attr("href","live?i=" + j);
+        });
+	});
+	
+  </script>
+</head>
+<body>
+<div id="Page">
+  <div id="Header">
+    <h1><img src="img/main_image.png" width="1000" alt="zeromugen.jp" /></h1>
+    <ul id="HeaderMenu" class="clearfix">
+      <li><a href="live/"><img src="cmn/img/menu_t_1.gif" class="alphafilter btn" width="41" height="13" alt="LIVE" /></a></li>
+      <li><a href="biography/"><img src="cmn/img/menu_t_2.gif" class="alphafilter btn" width="105" height="14" alt="BIOGRAPHY" /></a></li>
+      <li><a href="discography/"><img src="cmn/img/menu_t_3.gif" class="alphafilter btn" width="128" height="14" alt="DISCOGRAPHY" /></a></li>
+      <li><a href="photo/"><img src="cmn/img/menu_t_4.gif" class="alphafilter btn" width="60" height="14" alt="PHOTO"/></a></li>
+      <li><a href="video/"><img src="cmn/img/menu_t_5.gif" class="alphafilter btn" width="56" height="14" alt="VIDEO" /></a></li>
+      <li><a href="link"><img src="cmn/img/menu_t_6.gif" class="alphafilter btn" width="43" height="13" alt="LINK" /></a></li>
+      <li class="Blog"><a href="http://blog.zeromugen.jp">blog.zeromugen.jp</a></li>
+    </ul>
+  <!--/div#Header--></div>
+
+  <p class="Line">&nbsp;</p>
+
+  <div class="clearfix" id="Contents">
+    <div id="SideContents">
+      <div id="LatestLive">
+        <h2><img src="img/title_1c.gif" width="153" height="19" alt="LATEST LIVE" /></h2>
+        <p class="Title"><br/>
+        2013.5.21 (Tue.)<br /><br />
+        <span>THE LIVE 【episode4】</span><br />
+          ＠<a href="http://www.ruido.org/osaka/" target="_blank">心斎橋&quot;RUIDO&quot;</a><br /><br />
+        </p>
+        <p><h4>■TICKET</h4>
+        　前売￥2,000+D / 当日￥2,500+D
+        <br />
+        <h4>■Info</h4>
+        　詳細は<a href="live/">コチラ</a><br />
+        </p>
+      <!--/div#LatestLive--></div>
+      <div id="LiveSchedule">
+        <h2><img src="img/title_3.gif" width="195" height="19" alt="LIVE SCHEDULE" /></h2>
+        <ul>
+          <a href="live?i=1">
+          <li>2013.5.7<br />
+            <span class="Title">
+            <h3>＠心斎橋"RUIDO"</h3>
+            </span>
+          </li></a>
+          <a href="live?i=2">
+          <li>2013.4.19<br />
+            <span class="Title">
+            <h3>＠西九条"BRAND NEW"</h3>
+            </span>
+          </li></a>
+          <a href="live?i=3">
+          <li>2013.3.29<br />
+            <span class="Title">
+            <h3>＠南堀江"ZERO"</h3>
+            </span>
+          </li></a>
+          <a href="live?i=4">
+          <li>2013.3.14<br />
+            <span class="Title">
+            <h3>＠神戸"Star Club"</h3>
+            </span>
+          </li></a>
+          <a href="live?i=5">
+          <li>2013.3.6<br />
+            <span class="Title">
+            <h3>＠心斎橋"RUIDO"</h3>
+            </span>
+          </li></a>
+        </ul>
+      <!--/div#LiveSchedule--></div>
+      <div id="Twitter">
+        <h2><img src="img/title_6.gif" width="107" height="18" alt="TWITTER" /></h2>
+        <p>
+          <a class="twitter-timeline" href="https://twitter.com/ZERO_MUGEN_0" data-widget-id="290103450870616065">@ZERO_MUGEN_0 からのツイート</a>
+          <script>
+		    !function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0];
+				if(!d.getElementById(id)){
+					js=d.createElement(s);
+					js.id=id;
+					js.src="//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document,"script","twitter-wjs");</script>
+
+        </p>
+      <!--/div#Twitter--></div>
+      <div id="MailMagazine">
+        <img src="img/title_7.gif" width="192" height="19" alt="TWITTER" />
+        <form name="frmLMM" method="post" action="https://api.lolipop.jp/api/api.php?cmd=mm" target="_blank">
+        <p>ZERO MUGENのメルマガ &quot;Z.M.ぷるぷる&quot;</p>
+          <input type="hidden" name="account" value="plpl">
+          <input type="hidden" name="domain" value="mm.zeromugen.jp">
+          <img src="img/mailicon.png" width="18" height="13" />　
+          <input type="text" style="width:170px;" name="user_mail">
+          <input type="submit" name="join" value="参加">
+          <input type="submit" name="resign" value="退会">
+        </form>
+      <!--/div#MailMagazine--></div>
+      <div id="SNSLinks">
+        <p><a href="http://www.audioleaf.com/zeromugen/" target="_blank">
+          <img src="http://img.audioleaf.com/banner/234x60_1.gif" width="234" height="60" border="0" alt="インディーズバンド無料試聴サイトaudioleaf" /></a>
+        </p>
+        <p>&nbsp;</p>
+        <p><a href="http://www.youtube.com/channel/UCS41qZFGQk-c0Indt9XnZeQ?feature=mhee" target="_blank">
+          <img src="img/YouTube.png" width="236" height="62" alt="YouTube" /></a>
+        </p>
+      <!--/div#SNSLinks--></div>
+    <!--/div#SideContents--></div>
+    <div id="MainContents">
+      <div id="Info">
+        <h2><img src="img/title_5.gif" width="57" height="19" alt="INFO" /></h2>
+        <div id="InfoInner">
+          <dl class="clearfix">
+            <dt>2013.02.11 (Mon.)</dt>
+            <dd>
+              <h4>2月7日のライブの動画UP</h4>
+              <p>新曲"エオ"のライブ映像公開です！<br />
+              今回は若干高画質！？<br />
+              <a href="video/">コチラ</a>からどうぞ</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2013.02.09 (Sat.)</dt>
+            <dd>
+              <h4>ライブ情報更新</h4>
+              <p>ライブ予定を追加しました！<br />
+              <a href="live/">コチラ</a>からご確認ください</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2013.02.07 (Thu.)</dt>
+            <dd>
+              <h4>ライブハウスシンドローム Vol.6終了</h4>
+              <p>新ドラマーサメさんを迎えたZERO MUGEN 7th Gen.の１回目！<br />
+                前回のライブが打ち込みだったので実質１ヶ月ぶりのライブとなりメンバーのテンションも最高潮でした！<br />
+                <br />
+                会場のノリもすっごいよくてやりやすかったなぁ(´∀｀)<br />
+              </p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2013.01.24 (Thu.)</dt>
+            <dd>
+              <h4>ライブ情報更新</h4>
+              <p>ライブ予定を追加しました！<br />
+              <a href="live/">コチラ</a>からご確認ください</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2013.01.21 (Tue.)</dt>
+            <dd>
+              <h4>hananoneさよならコンサート終了！</h4>
+              <p>ZERO MUGEN、2013年一発目<br />
+                hananoneの三四郎くんやミックスナッツ from SOUND LINEといった<br />
+                神戸を賑わす同世代のバンドマンが集結した濃いライブとなりました<br />
+                <br />
+              ZERO MUGENは初の打ち込みということですこしごちゃごちゃした感じになりましたが、なんとかスタートは切れたかと思います！</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2013.01.09 (Wed.)</dt>
+            <dd>
+              <h4>ライブ情報更新</h4>
+              <p>ライブ予定を追加しました！<br />
+                ２月１５日の詳細も掲載してます<br />
+              <a href="live/">コチラ</a>からご確認ください</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.12.31 (Mon.)</dt>
+            <dd>
+              <h4>&quot;Silence Response&quot; ネット配信開始！</h4>
+              <p>ZERO MUGEN 1st Single&quot;Silence Response&quot;のiTunes StoreとAmazon MP3でのダウンロード販売開始です！<br />
+                <br />
+              <a href="discography/">DISCOGRAPHY</a>からどうぞ</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.12.12 (Wed.)</dt>
+            <dd>
+              <h4>BIOGRAPHY更新</h4>
+              <p>前々から、メンバーの顔が覚えられるプロフィールページが欲しいとの要望がありましたので簡単なプロフィールを<a href="biography/">BIOGRAPHY</a>に掲載しました！<br />
+                <br />
+              メンバーの意外な(？)趣味などが載ってるのでよかったらみてってー</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.12.06 (Thu.)</dt>
+            <dd>
+              <h4>ZERO MUGEN 企画ライブ終了！</h4>
+              <p>今回はキャンのアメリカ研修等と被って約一ヶ月ぶりのライブとなりましたが、<br />
+                2012年のZERO MUGENを締めくくるとてもいいライブだったと思います。<br />
+                <br />
+                対バンは・・・神戸一帯を騒がしているあのバンドが←<br />
+                RAISE BLACL FL●Gが出てくれて、いやぁよかったなぁ<br />
+                <br />
+              次のライブは逆に僕らが神戸ですよ！！・・・RAISEは関係ないけどｗ</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.11.13 (Tue.)</dt>
+            <dd>
+              <h4>THE STRANGE RASCAL「a meaning of life TOUR 2012」 </h4>
+              <p>やっぱり、スタクラは暖かいっすねー<br />
+                今回はクローバーグローバーさんとかクレパス姐さんたちとかどっかで名前聞いたことあるなぁ・・・って感じの先輩方と対バンできたのがすごくいい経験になりました<br />
+                <br />
+              僕らのライブは相変わらずハプニング付きでしたけどね←</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.10.29 (Mon.)</dt>
+            <dd>
+              <h4>大阪天狗予選終了</h4>
+              <p>大阪天狗予選は残念ながら次に駒を進めることはできませんでしたが、皆さんの応援もあってとてもいいライブができたと思います。<br />
+                <br />
+                でも、やっぱ勝てなかったのは悔しいです...<br />
+                <br />
+              今回の悔しさを胸に今後もより一層質の高い演奏とパフォーマンスを目指していきますので、これからも応援よろしくお願いします！</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.10.28 (Sun.)</dt>
+            <dd>
+              <h4>ライブ情報更新</h4>
+              <p>ライブ予定を追加しました！<br />
+                １３日神戸Star Clubの詳細<br />
+              <a href="live/#live2">コチラ</a>からご確認ください</p>
+            </dd>
+            <br />
+            <dd>
+              <h4>10月18日のライブの動画UP</h4>
+              <p>今回は”Silence Response”です
+                <br />
+              <a href="video/">コチラ</a>からどうぞ</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.10.19 (Fri.)</dt>
+            <dd>
+              <h4>ライブ情報更新</h4>
+              <p>ライブ予定を追加しました！<br />
+                ２９日の天狗予選の詳細も掲載してます<br />
+              <a href="live/#live2">コチラ</a>からご確認ください</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.10.18 (Thu.)</dt>
+            <dd>
+              <h4>みきてぃ presents &quot;WORLD IS MINE&quot; 終了</h4>
+              <p>レコ発以来一ヶ月半ぶりのライブとなりました！<br />
+                今回もお客さんのノリがよくてホントにやりやすいライブでした<br />
+                <br />
+              次は２９日、天狗予選なので気合入れてやらせてもらいます</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.10.03 (Wed.)</dt>
+            <dd>
+              <h4>ライブ情報更新</h4>
+              <p>今後のライブ予定を追加しました！<br />
+              急遽、参加させていただけることになった１８日CLAPPERのライブ詳細も掲載しているので<a href="live/#live2">コチラ</a>でご確認ください</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.09.21 (Fri.)</dt>
+            <dd>
+              <h4>9月５日のレコ発ライブの動画UP</h4>
+              <p>今回のライブ動画は十代録と若さ幸せの二本立てです（＾ω＾）<br />
+              <a href="video/">コチラ</a>からどうぞ</p>
+            </dd>
+            <dd>
+              <h4>Silence Responce ダイジェスト版公開</h4>
+              <p>ZERO MUGENのCD気になるやん、でも、ライブなかなか行けんしな・・・<br />
+                って人のために収録音源のダイジェスト動画を作っちゃいました！<br />
+                このページのPICK UPコーナーで見れるので是非確認してくださいね＾＾<br />
+                <br />
+              そして、気に入ったらCD買ってよねっ！！！！！！</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.09.12 (Wed.)</dt>
+            <dd>
+              <h4>重要なお知らせ</h4>
+              <p>９月５日、レコ発ライブをもちましてドラム担当の翔太がZERO MUGENを脱退することになりました。<br /><br />
+                翔ちゃんは初期からのメンバーでこれまでのZERO MUGENを作ってきた重要な人ですが、やりたい音楽と僕たちがやってる音楽にズレがあって、ほんとにやりたい音楽をやるためこういう決断になりました。<br />
+                <br />
+              メンバーは変わりますが、これからもZERO MUGENは全力で僕たちの音を作って届けていくので、どうかみなさん応援してください！</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.09.05 (Wed.)</dt>
+            <dd>
+              <h4>ZERO MUGENレコ発企画 &quot;Rock Man ZERO&quot;終了</h4>
+              <p>９月５日、無事1stシングル「Silence Response」のレコ発イベントを成功させることができました！<br />
+                最初は初のトリ・主催ということでかなりのプレッシャーもありましたが、対バンのみなさんが空気を作ってくれたのでめっちゃやりやすかったです。<br />
+                <br />
+              CDもかなりの人に手に取っていただき、興味を示してもらえたのでホントによかったと思います</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.08.30 (Thu.)</dt>
+            <dd>
+              <h4>ライブ日程変更のお知らせ</h4>
+              <p>９月２４日に予定されている、心斎橋CLAPPERでのライブはメンバーの都合により参加が難しい状況になりました。<br />
+                <br />
+              詳細は９月５日のレコ発ライブ終了後発表いたします。</p>
+            </dd>
+            <br />
+            <dd>
+              <h4>"zeromugen.jp" オープン</h4>
+              <p>レコ発企画に備えてZERO MUGENの公式ホームページ「zeromugen.jp」をオープンしました！<br />
+                <br />
+              チケット予約受付、メールマガジン、Twitter等積極的に情報を発信していくので是非、ご確認ください。</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.08.24 (Mon.)</dt>
+            <dd>
+              <h4>心斎橋"KING COBRA" ライブ終了</h4>
+              <p>今回も東京からのツアーバンドとの熱い対バンです。<br />
+                パンク色の強いバンドの中、僕たちらしさを全力で表現できたのですごくいいライブになりました！<br /><br />
+              僕たちも東京やもっと多くの地域に向かって音楽を届けられるように全力で前進していきます。</p>
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>2012.08.10 (Mon.)</dt>
+            <dd>
+              <h4>神戸"Star Club" ライブ終了</h4>
+              <p>今回は全国各地から集まった９アーティストと対バンということで
+                とても熱いライブになりました。<br /><br />
+                対バンしたバンドのみなさん、見に来ていただいた観客のみなさん、
+              Star Clubのスタッフのみなさんほんとにありがとう！</p>
+            </dd>
+          </dl>
+        </div>
+      <!--/div#Info--></div>
+      <div id="PickUp">
+        <h2><img src="img/title_2.gif" width="99" height="19" alt="PICK UP" /></h2>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/UCpBXxDsE_w?rel=0" frameborder="0" allowfullscreen></iframe>
+      <!--/div#PickUp--></div>
+      <div class="clearfix" id="LatestDisk">
+        <h2><img src="img/title_4.gif" width="158" height="19" alt="LATEST DISK" /></h2>
+        <div class="LeftContents">
+          <p>2012/09/05 Release!</p>
+          <p>&nbsp;</p>
+          <p><img src="img/alubumart.png" width="250" height="250" alt="アルバムアート" /></p>
+        <!--/div.LeftContents--></div>
+        <div class="RightContents">
+          <p>ZERO MUGEN   1st Single<br />
+            <span class="Title">
+              <span>「Silence Response」</span>
+            </span>
+          </p>
+          <p><br />
+          <h4>■PRICE</h4>
+            　\500- [TAX IN]<br />
+          <h4>■収録楽曲</h4>
+            　1. Silence Response<br />
+            　2. 十代録<br />
+            　3. Alternative Genger<br />
+              <a class="iTunes" href="https://itunes.apple.com/jp/artist/zero-mugen/id590346803?uo=4" target="itunes_store"><img src="http://r.mzstatic.com/images/web/linkmaker/badge_itunes-lrg.gif" alt="Zero Mugen" width="83" height="30" style="border: 0;"/></a>
+              <a href="http://www.amazon.co.jp/Silence-Response/dp/B00ASN9EZ6/ref=sr_shvl_album_1?ie=UTF8&qid=1356835466&sr=301-1" target="_blank" class="iTunes"><img src="discography/img/amazon.png" width="77" height="30" alt="Amazon" /></a>
+          </p>
+        <!--/div.RightContents--></div>
+      <!--/div#LatestDisk--></div>
+      
+    <!--/div#MainContents--></div>
+  <!--/div#Contents--></div>
+  
+  <p class="Line">&nbsp;</p>
+  
+  <div id="Footer">
+    <ul>
+      <li><a href="live/"><img src="cmn/img/menu_u_1.gif" class="alphafilter btn" width="34" height="11" alt="LIVE" /></a></li>
+      <li><a href="biography/"><img src="cmn/img/menu_u_2.gif" class="alphafilter btn" width="88" height="12" alt="BIOGRAPHY" /></a></li>
+      <li><a href="discography/"><img src="cmn/img/menu_u_3.gif" class="alphafilter btn" width="107" height="12" alt="DISCOGRAPHY" /></a></li>
+      <li><a href="photo/"><img src="cmn/img/menu_u_4.gif" class="alphafilter btn" width="50" height="12" alt="PHOTO" /></a></li>
+      <li><a href="video/"><img src="cmn/img/menu_u_5.gif" class="alphafilter btn" width="47" height="12" alt="VIDEO" /></a></li>
+      <li><a href="link/"><img src="cmn/img/menu_u_6.gif" class="alphafilter btn" width="36" height="11" alt="LINK" /></a></li>
+    </ul>
+    <address>
+      <img src="cmn/img/copyright.gif" width="155" height="10" alt="copyright " />
+    </address>
+  <!--/div#Footer--></div>
+<!--/div#Page--></div>
+</body>
+</html>

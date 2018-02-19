@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+#Contents a {
+	text-decoration:none;
+}
+
+#ArtistGroup {
+	margin-top: 50px;
+	margin-left: 5px;
+}
+	.ArtistBox {
+		float: left;
+		height: 220px;
+		width: 330px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+		.ArtistBox img {
+			border: 5px solid #FFF;
+			box-shadow: 2px 2px 3px 1px #999999;
+			-moz-box-shadow: 2px 2px 3px 1px #999999;
+			-webkit-box-shadow: 2px 2px 3px 1px #999999;
+		}
+		.ArtistBox .Title {
+			text-align: right;
+			margin-left: 20px;
+			padding-top: 190px;
+			padding-right: 20px;
+			position: absolute;
+			width: 270px;
+			height: 29px;
+			color: #FFF;
+			background-color: rgba(0, 0, 0, 0.7);
+			font-size: 18px;
+			margin-bottom: 5px;
+			display: none;
+		}
+#StudioGroup {
+	margin-top: 50px;
+}
+	#StudioGroup a:hover img {
+		text-decoration:none;
+		box-shadow: 2px 2px 3px 1px #FF7D7D;
+		-moz-box-shadow: 2px 2px 3px 1px #FF7D7D;
+		-webkit-box-shadow: 2px 2px 3px 1px #FF7D7D;
+	}
+	#StudioBox {
+		margin-top: 40px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+		#StudioBox li {
+			float: left;
+			height: 150px;
+			width: 250px;
+			text-align: center;
+		}

@@ -1,0 +1,80 @@
+/* CSS Document */
+@charset "utf-8";
+
+/* Common Classes
+------------------------------------------------------------*/
+.Line {
+	background-image: url(../img/line.png);
+	background-repeat: repeat-x;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.Title {
+	font-size: 12px;
+}
+	.Title span {
+	font-size: 18px;
+	color: #B20000;
+	}
+.LeftContents {
+	float: left;
+}
+.RightContents {
+	float: right;
+}
+.Shadow {
+	box-shadow: 2px 2px 3px 1px #999999;
+	-moz-box-shadow: 2px 2px 3px 1px #999999;
+	-webkit-box-shadow: 2px 2px 3px 1px #999999;
+}
+
+/* Header Layouts
+------------------------------------------------------------*/
+#Header {
+	text-align: left;
+	margin: auto;
+	width: 1000px;
+}
+#HeaderMenu {
+	padding-top: 20px;
+	padding-left: 50px;
+}
+	#HeaderMenu li {
+		margin-left: 30px;
+		float: left;
+	}
+.Blog {
+	margin-top: -7px;
+	padding-left: 30px;
+}
+	.Blog a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #006DD9;
+	text-decoration: none;
+	}
+	.Blog a:hover {
+		color:#39C;
+	}
+
+/* Contents Layouts
+------------------------------------------------------------*/
+#Contents {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Footer Layouts
+------------------------------------------------------------*/
+#Footer {
+	text-align: center;
+}
+	#Footer ul li {
+		display: inline;
+		margin-right: 30px;
+	}
+	#Footer address {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
