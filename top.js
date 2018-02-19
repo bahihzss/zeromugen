@@ -30,4 +30,8 @@ $(function(){
 		});
 	});
 		
+	$("#LiveSchedule a").each(function(i) {
+		var j = i + 1;
+		$(this).attr("href","live?i=" + j);
+	});
 });
